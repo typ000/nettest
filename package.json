@@ -1,0 +1,27 @@
+{
+  "name": "nettest",
+  "version": "1.0.0",
+  "description": "网络测试工具 - 基于 Cloudflare Pages",
+  "main": "index.html",
+  "scripts": {
+    "dev": "wrangler pages dev",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "wrangler pages deploy",
+    "preview": "wrangler pages dev --live-reload"
+  },
+  "keywords": [
+    "network",
+    "test",
+    "cloudflare",
+    "pages"
+  ],
+  "author": "typ000",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/typ000/nettest.git"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

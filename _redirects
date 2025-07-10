@@ -1,0 +1,7 @@
+# Cloudflare Pages 重定向配置
+
+# 根目录重定向到 index.html
+/ /index.html 200
+
+# 404 页面重定向
+/* /index.html 404
